@@ -1,2 +1,2 @@
-# Sidharth_Saji.github.io
+# Sidharth_Saji
 Sidharth Saji Website
