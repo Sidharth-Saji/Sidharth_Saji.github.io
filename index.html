@@ -1,129 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidharth Saji</title>
 
-    <title>Sidharth Saji</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/portfolio-item.css" rel="stylesheet">
 
-    <!-- Custom CSS for the '3 Col Portfolio' Template -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
-  </head>
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
-  <body>
+</head>
+<body>
 
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Home</a>
-        </div>
+<!-- NAVBAR -->
+<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#top"><i class="fas fa-bolt"></i> Sidharth Saji</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="#projects"><i class="fas fa-lightbulb"></i> Projects</a></li>
+        <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
+<div class="container-fluid" style="padding-left:50px; padding-right:50px;">
 
-    <div class="container">
+  <!-- INTRO + ABOUT COMBINED -->
+  <div class="row intro-section align-items-center">
+    <div class="col-lg-8 col-md-12">
+      <h1 class="page-header">Sidharth Saji <small>UG EE, IIT Palakkad</small></h1>
+      <p>
+        I am currently pursuing my B.Tech in Electrical Engineering at IIT Palakkad. 
+        My work spans embedded hardware development, analog & mixed-signal electronics, 
+        and hardware-oriented signal processing.
+      </p>
+    </div>
+    <div class="col-lg-4 col-md-12 text-center">
+      <img src="images/Sid_pic.jpg" class="profilepic img-responsive" alt="Sidharth Saji">
+    </div>
+  </div>
 
-      <div class="row">
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h3 class="page-header"><i class="fas fa-briefcase"></i> Experience</h3>
+    <ul>
+      <li>
+        <strong>Analog Test Intern – Texas Instruments</strong> (May–July 2025)
+        <ul>
+          <li>Final testing of high-voltage supervisor ICs</li>
+          <li>Planned final-test solutions for isolated HV devices</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Project Intern – Bumblebee Instruments Pvt. Ltd.</strong> (May–July 2024)
+        <ul>
+          <li>Redesigned microcontroller-based student oscilloscope</li>
+          <li>PCB design and hardware prototyping</li>
+          <li>GUI debugging using VB .NET</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-        <div class="col-lg-12">
-          <h1 class="page-header">Sidharth Saji <small class="course"> UG EE IIT Palakkad</small></h1>
-        </div>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h3 class="page-header"><i class="fas fa-lightbulb"></i> Projects</h3>
+    <ul>
+      <li>
+        <strong>Linear Optical Sensor</strong> – CMOS image sensor based Moiré displacement system
+        [<a href="https://drive.google.com/drive/u/0/folders/1LUyhbSqUqyQ94buNl36Djat22JEkbsjO" target="_blank">Link</a>]
+      </li>
+      <li>
+        <strong>DCT using Distributed Arithmetic</strong> – Verilog implementation for VLSI architectures
+        [<a href="https://drive.google.com/drive/u/0/folders/1h79aroDK-AXjmbpxOR2fjEwdkA6qjI5t" target="_blank">Link</a>]
+      </li>
+      <li>
+        <strong>FFT on FPGA</strong> – 16-point FFT verified using ECG signal
+        [<a href="https://drive.google.com/drive/folders/1bJdmla3TomzdFokcrp2IvwALYhm1SgI_" target="_blank">Link</a>]
+      </li>
+    </ul>
+  </section>
 
-      </div>
+  <!-- SKILLS -->
+  <section id="skills">
+    <h3 class="page-header"><i class="fas fa-tools"></i> Technical Skills</h3>
+    <ul>
+      <li><strong>Programming:</strong> C, C++, Python, Verilog, Embedded C</li>
+      <li><strong>Tools:</strong> MATLAB, LTspice, KiCad</li>
+      <li><strong>Hardware:</strong> Arduino, STM32, ESP32, TMS320 DSPs</li>
+      <li><strong>Other:</strong> PCB Design, LaTeX Documentation</li>
+    </ul>
+  </section>
 
-      <div class="row">
+<!-- CONTACT SECTION (Minimal, Scrollable) -->
+<div id="contact" class="text-center my-5">
+  <div class="d-flex justify-content-center flex-wrap gap-3">
+    <!-- Email Icon -->
+    <a href="mailto:sidharthsaji2003@gmail.com" 
+       style="font-size:25px; margin:0 10px;" 
+       target="_blank" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
 
-        <div class="col-md-8">
-          <img class="profilepic" src="images/Sid_pic.jpg">
-        </div>
+    <!-- GitHub Icon -->
+    <a href="https://github.com/Sidharth-Saji" 
+       style="font-size:25px; margin:0 10px;" 
+       target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
 
-        <div class="col-md-4">
-          <h3>About Me</h3>
-          <p>
-            I am an undergraduate student in Electrical Engineering at IIT Palakkad with a strong interest in
-            analog and mixed-signal electronics, embedded systems, and applied signal processing.
-            I enjoy working at the intersection of theory and hands-on implementation, ranging from circuit
-            design and simulation to hardware validation.
-          </p>
+    <!-- LinkedIn Icon -->
+    <a href="https://www.linkedin.com/in/sidharth-saji-0ab85623b/" 
+       style="font-size:25px; margin:0 10px;" 
+       target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </div>
+</div>
 
-          <p>
-            My academic and project experience includes PCB design, hardware debugging, system-level
-            prototyping, and algorithm-to-hardware translation. I am particularly interested in learning
-            industry-grade design practices and contributing to real-world engineering problems.
-          </p>
 
-          <h3>Key Interests</h3>
-          <ul>
-            <li>Analog & Mixed-Signal Circuit Design</li>
-            <li>Embedded Systems & Microcontrollers</li>
-            <li>Signal Processing & Hardware Acceleration</li>
-            <li>PCB Design and Prototyping</li>
-          </ul>
-        </div>
-      </div>
+  <footer>
+    <p>&copy; 2025 Sidharth Saji</p>
+  </footer>
 
-      <div class="row">
+</div>
 
-        <div class="col-lg-12">
-          <h3 class="page-header">Related Projects</h3>
-        </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
-        </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
-        </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
-        </div>
-
-        <div class="col-sm-3 col-xs-6">
-        	<a href="#"><img class="img-responsive portfolio-item" src="http://placehold.it/500x300"></a>
-        </div>
-
-      </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
-
-      <hr>
-
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Copyright &copy; Company 2013</p>
-          </div>
-        </div>
-      </footer>
-      
-    </div><!-- /.container -->
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-  </body>
-
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
 </html>
