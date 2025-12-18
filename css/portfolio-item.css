@@ -11,7 +11,7 @@ footer {
 }
 
 .profilepic {
-  width: 100%;          /* scales to column width */
+  /* width: 100%;          scales to column width */
   max-width: 300px;     /*adjust this value as needed*/
   height: auto;         /* preserves aspect ratio */
   display: block;
